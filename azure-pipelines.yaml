@@ -18,8 +18,6 @@ variables:
   ZIP_FILENAME: FivetranFunctionLambda
 
 steps:
-- script: cd api/aws_lambda/ && npm i
-  displayName: NPM Install
   
 - task: ArchiveFiles@2
   displayName: Zip Files
